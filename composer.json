@@ -1,0 +1,23 @@
+{
+    "name": "rdisme/eswechat",
+    "description": "针对easywechat缓存替换的简单的封装",
+    "authors": [
+        {
+            "name": "rdisme",
+            "email": "rendao.sun@foxmail.com"
+        }
+    ],
+    "keywords": [
+        "easywechat"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Rdisme\\Eswechat\\": "src/"
+        }
+    },
+    "require": {
+		"overtrue/wechat": "~4.0",
+		"predis/predis": "^1.1"
+	},
+    "license": "MIT"
+}
